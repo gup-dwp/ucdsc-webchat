@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="apple-touch-fullscreen" content="yes"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta http-equiv="imagetoolbar" content="no"/>
+    <meta property="og:image" content="/assets/images/opengraph-image.png">
+
+    <!-- GOV UK styles -->
+    <link href="/assets/stylesheets/govuk-template.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="/assets/stylesheets/fonts.css" media="all" rel="stylesheet" type="text/css"/>
+
+    <!-- https://scotch.io/tutorials/all-favicons-for-all-devices-and-sizes -->
+    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="/assets/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/images/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="">
+    <link rel="apple-touch-icon" sizes="114x114" href="">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/apple-touch-icon-152x152.png">
+    <meta name="application-name" content="">
+    <meta name="msapplication-TileImage" content="">
+    <meta name="msapplication-TileColor" content="">
+    <!-- UC styles -->
+    <link href="/assets/stylesheets/main.css" rel="stylesheet" type="text/css">
+
+    <title>UC DSC</title>
+</head>
+
+<body class="">
+    <script type="text/javascript">document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+    <div id="skiplink-container">
+        <div>
+            <a href="#content" class="skiplink">Skip to main content</a>
+        </div>
+    </div>
+
+    <div id="global-cookie-message">
+        <div class="outer-block">
+            <div class="inner-block">
+                <p>
+                    We have placed cookies on your computer to help make this website better. You can change your cookies
+                    settings at any time and can
+                    <a href="">find out about cookies here</a>. If you continue using this site we will assume you accept
+                    these cookies.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <header role="banner" id="global-header">
+        <div class="header-wrapper">
+            <div class="header-global">
+                <div class="header-logo">
+                    <a href="https://www.gov.uk/" title="Go to the GOV.UK homepage" id="logo" class="content">
+                        <img src="/assets/images/gov.uk_logotype_crown.png?0.10.0" width="35" height="31" alt=""> GOV.UK
+                    </a>
+                </div>
+                <form id="search">
+                  <input type="text" class="form-control" />
+                  <input type="submit" id="search-submit" />
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <div id="global-header-bar">
+        <div class="inner-block">
+            <div class="header-bar"></div>
+        </div>
+    </div>
+
+    <main role="main" id="wrapper">
+        <div id="content">
+            <div class="inner-block">
+                <div class="phase-banner">
+                    <p>
+                        <strong class="phase-tag">ALPHA</strong>
+                        <span>This is a new service – your feedback will help us to improve it.</span>
+                    </p>
+                </div>
+            </div>
+
+        
+
+        </div>
+    </main>
+
+    <footer>
+      <div id="demoContainer">
+        <div id="connectControls">
+
+
+          <div id="otherClients"></div>
+        </div>
+
+        <div id="videos">
+          <video autoplay="autoplay" id="selfVideo"  class="easyrtcMirror chat-box" muted="muted" volume="0"></video>
+          <video autoplay="autoplay" class="chat-box" id="callerVideo"></video>
+          <div id="acceptCallBox" class="hide"> <!-- Should be initially hidden using CSS -->
+            <div id="acceptCallLabel"></div>
+            <button id="callAcceptButton" >Accept</button> <button id="callRejectButton">Reject</button>
+          </div>
+        </div>
+      </div>
+      <a id="web-chat" class="footer-link" href="#">Web Chat</a>
+      <ul id="chat-avail" class="availability">
+        <li><a href="#">Available</a></li>
+        <li><a href="#">Start Chat</a></li>
+      </ul>
+      <a id="video-chat" class="footer-link" href="#">Video Chat</a>
+      <ul id="video-avail" class="availability">
+        <li><a href="#" id="video-chat-connect" >Connect</a></li>
+        <li><a href="#" id="video-chat-disconnect" class="hide" >Disconnect</a></li>
+      </ul>
+      <input type="checkbox" style="display:none;" checked="checked" id="shareAudio"  />
+      <input type="checkbox" style="display:none;" checked="checked" id="shareVideo"  />
+      <input type="checkbox" style="display:none;" checked="checked" id="expectAudio" />
+      <input type="checkbox" style="display:none;" checked="checked" id="expectVideo" />
+
+    </footer>
+
+    <script src="/assets/javascripts/govuk-template.js" type="text/javascript"></script>
+    <script src="/assets/javascripts/jquery.min.js" ></script>
+    <script src="/assets/javascripts/moment.min.js" ></script>
+    <script src="/assets/javascripts/fullcalendar.js" ></script>
+    <script src="/assets/javascripts/highcharts.js" ></script>
+
+    <script src="../socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="../easyrtc/easyrtc.js"></script>
+
+    <script src="/assets/javascripts/ucdsc.js" ></script>
+    <script src="/assets/javascripts/videoChat.js" ></script>
+</body>
+</html>

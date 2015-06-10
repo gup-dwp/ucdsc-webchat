@@ -1,0 +1,194 @@
+html {
+  background:#fff;
+}
+
+#global-header-bar,
+#content,
+#global-header .header-wrapper {
+  max-width:98%;
+}
+
+#global-header-bar .inner-block,
+#global-header .header-wrapper{
+  padding-left:0;
+  padding-right:0;
+}
+
+.form-title {
+  margin:20px 0;
+}
+
+.heading-small {
+  margin-top:0;
+}
+
+.login-content {
+  width:60%;
+}
+
+table td {
+  vertical-align: text-top;
+}
+
+#calendar {
+  width:90%;
+  font-size:12px;
+}
+
+/************ login ******************/
+
+.login #search,
+.login footer {
+  display:none;
+}
+
+/************* agent portal ***************/
+#agent-portal {
+  padding-top:40px;
+}
+
+/************* footer *******************/
+
+.footer-link {
+  bottom:0;
+  background:#0b0c0c;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  color:#fff;
+  font-weight:bold;
+  left:2px;
+  padding:10px 10px 5px;
+  position:fixed;
+  text-align:center;
+  width:100px;
+  z-index:9999;
+
+}
+
+#video-chat {
+  left:128px;
+}
+
+footer a,
+footer a:link,
+footer a:visited {
+  color:#fff;
+  text-decoration:none;
+}
+
+footer a:focus{
+  background:#0b0c0c;
+  outline:none;
+}
+
+.availability {
+  background: #000;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  bottom: 33px;
+  color:#fff;
+  display:none;
+  position: fixed;
+  left: 2px;
+  padding:10px;
+  width: 100px;
+  z-index: 0;
+}
+
+#video-avail {
+  left:128px;
+}
+
+
+/********* search ************/
+
+#search {
+  float:right;
+  position:relative;
+  width:350px;
+}
+
+
+#search .form-control {
+  width:100%;
+}
+
+#search-submit {
+  position: absolute;
+  z-index: 4;
+  right: 0;
+  top: 0;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #0b0c0c;
+  border-width: 0 0 0 1px;
+  border-left-color: #222;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  overflow: hidden;
+  text-indent: -5000px;
+  cursor: pointer;
+  color: #fff;
+  background: #0b0c0c url(../images/search.png) no-repeat 2px 50%;
+}
+
+/*************** Video chat ********************/
+.hide {display:none;}
+
+
+/*************** Video chat ********************/
+.chat-box {
+  position: fixed;
+  height: 200px;
+  width: 200px;
+  background: #000;
+  bottom: 0;
+  left: 256px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display:none;
+  z-index:9999;
+}
+
+#callerVideo {
+  width:400px;
+  height:400px;
+  left:460px;
+}
+
+
+.uc #global-header-bar,
+.uc #content,
+.uc #global-header .header-wrapper {
+  max-width:990px;
+}
+
+.uc #web-chat,
+.uc #video-chat {
+  display:none;
+}
+
+.uc #selfVideo {
+  left:129px;
+}
+.uc #callerVideo {
+  left:336px;
+}
+
+#easyrtcErrorDialog {
+  display:none !important;
+}
+
+
+#acceptCallBox {
+  position: fixed;
+  left: 256px;
+  background: #000;
+  color: #fff;
+  bottom: 192px;
+  width: 180px;
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}

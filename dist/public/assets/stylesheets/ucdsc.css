@@ -1,0 +1,216 @@
+/* line 1, ../../../../build/stylesheets/ucdsc.scss */
+html {
+  background: #fff;
+}
+
+/* line 5, ../../../../build/stylesheets/ucdsc.scss */
+#global-header-bar,
+#content,
+#global-header .header-wrapper {
+  max-width: 98%;
+}
+
+/* line 11, ../../../../build/stylesheets/ucdsc.scss */
+#global-header-bar .inner-block,
+#global-header .header-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 17, ../../../../build/stylesheets/ucdsc.scss */
+.form-title {
+  margin: 20px 0;
+}
+
+/* line 21, ../../../../build/stylesheets/ucdsc.scss */
+.heading-small {
+  margin-top: 0;
+}
+
+/* line 25, ../../../../build/stylesheets/ucdsc.scss */
+.login-content {
+  width: 60%;
+}
+
+/* line 29, ../../../../build/stylesheets/ucdsc.scss */
+table td {
+  vertical-align: text-top;
+}
+
+/* line 33, ../../../../build/stylesheets/ucdsc.scss */
+#calendar {
+  width: 90%;
+  font-size: 12px;
+}
+
+/************ login ******************/
+/* line 40, ../../../../build/stylesheets/ucdsc.scss */
+.login #search,
+.login footer {
+  display: none;
+}
+
+/************* agent portal ***************/
+/* line 46, ../../../../build/stylesheets/ucdsc.scss */
+#agent-portal {
+  padding-top: 40px;
+}
+
+/************* footer *******************/
+/* line 52, ../../../../build/stylesheets/ucdsc.scss */
+.footer-link {
+  bottom: 0;
+  background: #0b0c0c;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  left: 2px;
+  padding: 10px 10px 5px;
+  position: fixed;
+  text-align: center;
+  width: 100px;
+  z-index: 9999;
+}
+
+/* line 68, ../../../../build/stylesheets/ucdsc.scss */
+#video-chat {
+  left: 128px;
+}
+
+/* line 72, ../../../../build/stylesheets/ucdsc.scss */
+footer a,
+footer a:link,
+footer a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 79, ../../../../build/stylesheets/ucdsc.scss */
+footer a:focus {
+  background: #0b0c0c;
+  outline: none;
+}
+
+/* line 84, ../../../../build/stylesheets/ucdsc.scss */
+.availability {
+  background: #000;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  bottom: 33px;
+  color: #fff;
+  display: none;
+  position: fixed;
+  left: 2px;
+  padding: 10px;
+  width: 100px;
+  z-index: 0;
+}
+
+/* line 98, ../../../../build/stylesheets/ucdsc.scss */
+#video-avail {
+  left: 128px;
+}
+
+/********* search ************/
+/* line 105, ../../../../build/stylesheets/ucdsc.scss */
+#search {
+  float: right;
+  position: relative;
+  width: 350px;
+}
+
+/* line 112, ../../../../build/stylesheets/ucdsc.scss */
+#search .form-control {
+  width: 100%;
+}
+
+/* line 116, ../../../../build/stylesheets/ucdsc.scss */
+#search-submit {
+  position: absolute;
+  z-index: 4;
+  right: 0;
+  top: 0;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #0b0c0c;
+  border-width: 0 0 0 1px;
+  border-left-color: #222;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  overflow: hidden;
+  text-indent: -5000px;
+  cursor: pointer;
+  color: #fff;
+  background: #0b0c0c url(../images/search.png) no-repeat 2px 50%;
+}
+
+/*************** Video chat ********************/
+/* line 137, ../../../../build/stylesheets/ucdsc.scss */
+.hide {
+  display: none;
+}
+
+/*************** Video chat ********************/
+/* line 141, ../../../../build/stylesheets/ucdsc.scss */
+.chat-box {
+  position: fixed;
+  height: 200px;
+  width: 200px;
+  background: #000;
+  bottom: 0;
+  left: 256px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: none;
+  z-index: 9999;
+}
+
+/* line 154, ../../../../build/stylesheets/ucdsc.scss */
+#callerVideo {
+  width: 400px;
+  height: 400px;
+  left: 460px;
+}
+
+/* line 161, ../../../../build/stylesheets/ucdsc.scss */
+.uc #global-header-bar,
+.uc #content,
+.uc #global-header .header-wrapper {
+  max-width: 990px;
+}
+
+/* line 167, ../../../../build/stylesheets/ucdsc.scss */
+.uc #web-chat,
+.uc #video-chat {
+  display: none;
+}
+
+/* line 172, ../../../../build/stylesheets/ucdsc.scss */
+.uc #selfVideo {
+  left: 129px;
+}
+
+/* line 175, ../../../../build/stylesheets/ucdsc.scss */
+.uc #callerVideo {
+  left: 336px;
+}
+
+/* line 179, ../../../../build/stylesheets/ucdsc.scss */
+#easyrtcErrorDialog {
+  display: none !important;
+}
+
+/* line 184, ../../../../build/stylesheets/ucdsc.scss */
+#acceptCallBox {
+  position: fixed;
+  left: 256px;
+  background: #000;
+  color: #fff;
+  bottom: 192px;
+  width: 180px;
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
